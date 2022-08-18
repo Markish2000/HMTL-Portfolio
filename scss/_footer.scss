@@ -4,6 +4,10 @@
     padding: 15px 0;
 }
 
+.text_deco-none{
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
     .footer_div-pd {
         flex-direction: column;
