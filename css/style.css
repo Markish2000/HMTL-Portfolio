@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+#body {
+  background-color: #000000;
+}
+
+.verde {
+  color: #2bff00;
+}
+
+.navbar {
+  color: aliceblue;
+}
+
+img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
