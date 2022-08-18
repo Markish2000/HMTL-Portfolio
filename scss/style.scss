@@ -3,14 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     color: #ffffff;
-};
+}
 
-#body {
+.verde {
+    color: #2bff00;
+}
+
+body {
     background-color: #000000;
-};
+    margin-top: 80px
+}
 
-.verde{
-    color: #2bff00
+body::-webkit-scrollbar {
+    width: 7px
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #2bff00;
+    border-radius: 5px;
 }
 
 @import "header";

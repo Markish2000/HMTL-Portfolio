@@ -5,76 +5,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Marcos Hernán Parella para buscar empleo.">
+    <meta name="keywords"
+        content="Marcos Hernan Parella, Marcos, Hernan, Parella, Empleo, IT, Recluiter, OpenToWork, Trabajo">
+    <title>Marcos Hernan Parella</title>
+    <link rel="icon" href="image/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Marcos Hernan Parella</title>
 </head>
 
-<body id="body">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <div>
-                    <a class="navbar-brand" href="#"><b class="verde">Marcos Hernan Parella</b></a>
+                    <a class="navbar-brand verde" href="#"><b class="verde">Marcos Hernan Parella</b></a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse div_navbar-df" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#sobremi"><b class="verde">
-                                    SOBRE MÍ</b></a>
+                            <a class="nav-link active" aria-current="page" href="#sobremi"><b class="verde">SOBRE MÍ</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#portfolio"><b
-                                    class="verde">PORTFOLIO</b></a>
+                            <a class="nav-link" href="#habilidades"><b class="verde">HABILIDADES</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#footer"><b
-                                    class="verde">CONTACTAME</b></a>
+                            <a class="nav-link" href="#portfolio"><b class="verde">PORTFOLIO</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer"><b class="verde">CONTACTAME</b></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section>
+    <section class="inicio d-flex align-items-center justify-content-evenly">
         <div>
-            <h2><b class="verde">¡</b>Hola<b class="verde">!</b></h2>
-            <h3><b>Soy</b> <b class="verde">Marcos</b><b>,</br>Jr. Front-end</br>Developer.</b></h3>
+            <h2 class="div_inicio_h2"><b class="verde">¡</b>Hola<b class="verde">!</b></h2>
+            <h3 class="div_inicio_h3"><b>Soy</b> <b class="verde">Marcos</b><b>,</br>Jr. Front-end</br>Developer.</b>
+            </h3>
         </div>
         <div>
-            <img src="image/marcoshernanparella.jpeg" alt="Marcos Hernan Parella">
+            <img loading="lazy" src="image/marcoshernanparella.jpeg" alt="Marcos Hernan Parella" class="inicio_img">
         </div>
-        <section id="sobremi">
-            <h1>SOBRE MÍ</h1>
-            <div>
-                <img src="image/marcoshernanparella.jpeg" alt="Marcos Hernan Parella">
-            </div>
-            <div>
-                <p></p>
-            </div>
-        </section>
-        <section id="portfolio">
-            <h1>PORTFOLIO</h1>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="image/merezbots.jpg" class="card-img-top" alt="MerezBots">
-                    <div class="card-body">
-                        <p class="card-text">MerezBots es una página que se encarga de la prestación de servicios,
-                            automatizando cuentas de "Lords Mobile".</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer id="footer">
-            <div>
-                <h1>CONTACTAME</h1>
-            </div>
-            <div>
-                <img src="image/" alt="">
-            </div>
-        </footer>
     </section>
+    <section id="sobremi">
+        <h1 class="sobremi_h1"><b class="verde d-flex justify-content-center">SOBRE MÍ</b></h1>
+        <div class="d-flex">
+            <div class="d-flex div_50 align-items-center justify-content-center img_sobremi">
+                <img class="img_sobremi" loading="lazy" src="image/marcoshernanparella.jpeg" alt="Marcos Hernan Parella">
+            </div>
+            <div class="d-flex div_50 justify-content-center">
+                <p class="sobremi_div_p"><b>Mi nombre es <b class="verde">Marcos Hernan Parella</b>, soy de Buenos
+                        Aires, Argentina y tengo 21 años.
+                        <br>
+                        <br>
+                        Soy una persona organizada y con una gran motivación por la
+                        tecnología.
+                        <br>
+                        <br>
+                        Me encuentro estudiando la carrera de <b class="verde">"</b>Desarrollador Web Full Stack<b
+                            class="verde">"</b> en <b class="verde">"</b>Coderhouse<b class="verde">"</b>.
+                        <br>
+                        <br>
+                        Actualmente me encuentro en la busqueda laboral relacionado a IT como trainee o como junior.
+                    </b>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="habilidades">
+        <h1 class="footer_h1"><b class="verde d-flex justify-content-center">HABILIDADES</b></h1>
+        <div class="d-flex justify-content-evenly div_habilidades-df">
+            <div class="div_habilidades-pd">
+                <h3 class="verde text-center">HTML5</h3>
+                <img loading="lazy" src="image/html.png" alt="HTML5">
+            </div>
+            <div class="div_habilidades-pd">
+                <h3 class="verde text-center">CSS3</h3>
+                <img loading="lazy" src="image/css.png" alt="CSS3">
+            </div>
+            <div class="div_habilidades-pd">
+                <h3 class="verde text-center">Bootstrap</h3>
+                <img loading="lazy" src="image/bootstrap.png" alt="Bootstrap">
+            </div>
+            <div class="div_habilidades-pd">
+                <h3 class="verde text-center">Sass</h3>
+                <img loading="lazy" src="image/sass.png" alt="Sass">
+            </div>
+            <div class="div_habilidades-pd">
+                <h3 class="verde text-center">React JS</h3>
+                <img loading="lazy" src="image/reactJs.png" alt="React JS">
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1 class="portfolio_h1"><b class="verde d-flex justify-content-center">PORTFOLIO</b></h1>
+        <div class="d-flex justify-content-evenly">
+            <div class="card" style="width: 18rem;">
+                <a href="https://markish2000.github.io/coderhouse/" target="_blank">
+                    <img loading="lazy" src="image/merezbots.jpg" class="card-img-top" alt="MerezBots">
+                    <div class="card-body">
+                        <p class="card-text"><b>MerezBots es una página que se encarga de la prestación de servicios,
+                                automatizando cuentas de "Lords Mobile".</b></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h1 class="footer_h1"><b class="verde d-flex justify-content-center">CONTACTAME</b></h1>
+        <div class="d-flex justify-content-evenly footer_div-pd">
+            <div class="div_footer_pd-bt">
+                <a href="mailto:marcosparella2000@gmail.com" target="_blank">
+                    <h3 class="verde text-center">CORREO</h3>
+                    <img loading="lazy" src="image/correo.png" alt="correo">
+                </a>
+            </div>
+            <div class="div_footer_pd-bt">
+                <a href="https://www.linkedin.com/in/marcos-hern%C3%A1n-parella-92ba27234/" target="_blank">
+                    <h3 class="verde text-center">Linkedin</h3>
+                    <img loading="lazy" src="image/linkedin.png" alt="Linkedin">
+                </a>
+            </div>
+            <div class="div_footer_pd-bt">
+                <a href="https://github.com/Markish2000" target="_blank">
+                    <h3 class="verde text-center">GitHub</h3>
+                    <img loading="lazy" src="image/github.png" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
