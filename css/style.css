@@ -223,6 +223,11 @@ body::-webkit-scrollbar-thumb {
   .div_habilidades-pd {
     padding-bottom: 40px;
   }
+  .portfolioDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
   .portfolio_h1 {
     border: 1px #2bff00 solid;
     margin: 60px 0;
